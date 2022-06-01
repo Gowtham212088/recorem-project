@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+html,
+body {
+  height: 100%;
+}
+
+/* Login & SignUp page */
+
+.login-entire-page {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 0px;
+  margin: 0px; */
+}
+
+.admin-page-height {
+  height: 100vh;
+  /* margin-bottom:0px ; */
+}
+
+.admin-page-1 {
+  height: 950px;
+  background-image: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+  background-repeat: repeat;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.643);
+  background-attachment: scroll;
+}
+
+.fa {
+  color: rgb(244, 244, 244);
+  border: 5px solid rgb(203, 203, 203);
+}
+
+.admin-login-box {
+  height: 700px;
+}
+
+.admin-text-field {
+  height: 250px;
+  width: 350px;
+}
+
+.signup-admin-text-field {
+  height: 250px;
+  width: 350px;
+  position: relative;
+  bottom: 60px;
+}
+
+.admin-page-2 {
+  height: 950px;
+  background-image: url("https://img.freepik.com/free-vector/social-media-data-center-smm-stats-digital-marketing-research-market-trends-analysis-female-expert-studying-online-survey-results_335657-2392.jpg?t=st=1652157218~exp=1652157818~hmac=1e16748338685a1752b0d60f0135f601e61982ec10597717ba24ecfc0ff56b05&w=826");
+}
+
+.admin-login-background {
+  position: relative;
+  bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.326);
+}
+
+.admin-login-background1 {
+  position: relative;
+  height: 950px;
+  background-color: rgba(255, 255, 255, 0.326);
+}
+
+.signup-field {
+  position: relative;
+  bottom: 55px;
+}
+
+.admin-login-icon {
+  color: black;
+}
+
+#forgot-password:hover {
+  cursor: pointer;
+}
