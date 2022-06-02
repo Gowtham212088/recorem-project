@@ -1,7 +1,7 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import Navbar from "./NavBar";
+import Navbar from "../HomePage/NavBar";
 import { Link } from "react-router-dom";
 function AdminLogin() {
   return (
