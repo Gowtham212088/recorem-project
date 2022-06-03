@@ -77,64 +77,93 @@ body {
   cursor: pointer;
 }
 
-.section{
+.section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Licorice&family=Open+Sans:wght@800&family=Poppins:wght@800&family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Licorice&family=Open+Sans:wght@800&family=Poppins:wght@800&family=Roboto:wght@900&display=swap");
 
-#pen-slingers{
-font-family: 'Dancing Script', cursive;
+#pen-slingers {
+  font-family: "Dancing Script", cursive;
   font-size: 65px;
 }
 
-p{
+p {
   font-size: 14px;
   color: #262626;
 }
-.section{
+.section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.main-heading{
+.main-heading {
   color: rgb(204, 18, 18);
   font-size: 26px;
 }
-.underline{
+.underline {
   height: 04px;
   width: 4rem;
   background-color: #f76c2f;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.bg-c-light{
+.bg-c-light {
   background-color: #f2f2f2;
 }
 
-.letter-gold{
-color: #ffe20a;
+.letter-gold {
+  color: #ffc400;
 }
 
-.nav-container:hover{
-      background-color: #262626;
-      color: black;
+.nav-container:hover {
+  background-color: #262626;
+  color: black;
 }
 
 /** Navbar  */
 
-@media only screen and (max-width: 991px) and (min-width: 100px)  {
-.nav-signup{
-  margin-left: 0px;
+@media only screen and (max-width: 991px) and (min-width: 100px) {
+  .nav-signup {
+    margin-left: 0px;
+  }
 }
-}
-@media only screen and(min-width: 100px)  {
-  .nav-signup{
+@media only screen and(min-width: 100px) {
+  .nav-signup {
     margin-left: 5px;
   }
-  }
+}
 
-  #navbarNav{
-    display: flex;
-    justify-content: space-between;
-  }
+#navbarNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-text-hover:hover {
+  cursor: pointer;
+}
+
+.icon-color{
+  color: rgb(0, 98, 255);
+}
+
+.home-icon{
+  position: relative;
+  bottom: 3px;
+  color: rgb(0, 98, 255);
+}
+
+#home-icon-position{
+  position: relative;
+  bottom: 0px;
+}
+
+#about-nav{
+  position: relative;
+  bottom: 7px;
+}
+
+.home-about-articles{
+  position: relative;
+  top: 15px;
+}

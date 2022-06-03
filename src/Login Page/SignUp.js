@@ -1,14 +1,14 @@
 import React from "react";
 import { useState } from "react";
 
-              function SignUp(){
-                const [form, setForm] = useState();
-                  const handleSubmit = (ele) => {
-                    ele.preventDefault();
-                    console.log(form);
-                  };
-                  return (
-                    <div>
+function SignUp() {
+  const [form, setForm] = useState();
+  const handleSubmit = (ele) => {
+    ele.preventDefault();
+    console.log(form);
+  };
+  return (
+    <div>
       <section className="py-4 bg-info">
         <div className="container">
           <div className="row">
@@ -109,6 +109,6 @@ import { useState } from "react";
         </div>
       </section>
     </div>
-                  );
-              }
+  );
+}
 export default SignUp;

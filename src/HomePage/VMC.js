@@ -1,10 +1,9 @@
 import React from "react";
 
-
-       function Vmc(){
-           return(
-               <div>
-                     <section className="section bg-c-light border-top">
+function Vmc() {
+  return (
+    <div>
+      <section className="section bg-c-light border-top">
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center">
@@ -40,7 +39,7 @@ import React from "react";
           </div>
         </div>
       </section>
-               </div>
-           )
-       }
-export default Vmc;       
+    </div>
+  );
+}
+export default Vmc;

@@ -34,7 +34,10 @@ function Footer() {
                   <p className="text-while mb-1 text-light"> +91 9987xxxxx2 </p>{" "}
                 </div>
                 <div>
-                  <p className="text-while mb-1 text-light"> someone@gmail.com </p>{" "}
+                  <p className="text-while mb-1 text-light">
+                    {" "}
+                    someone@gmail.com{" "}
+                  </p>{" "}
                 </div>
               </div>
             </div>

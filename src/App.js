@@ -6,42 +6,33 @@ import Vmc from "./HomePage/VMC";
 import OurServices from "./HomePage/OurServices";
 import Footer from "./HomePage/Footer";
 import SignUp from "./Login Page/SignUp";
-import {Switch,Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import LoginPage from "./Login Page/LoginPage";
 function App() {
   return (
     <div className="App">
-     
-      <Navbar/>
-
       <Switch>
+        <Route path="/">
+          <Navbar />
+          <Carousel />
+          <OurCompany />
+          <Vmc />
+          <OurServices />
+          <Footer />
+        </Route>
 
-      <Route path="/" exact >
-       
-      <Carousel/>
-      <OurCompany/>
-      <Vmc/>
-      <OurServices/>
-      <Footer/>
+        <Route path="/Home">
+          <Navbar />
+          <Carousel />
+          <OurCompany />
+          <Vmc />
+          <OurServices />
+          <Footer />
+        </Route>
 
-      </Route>
-
-      <Route path="/Home"  >
-       
-       <Carousel/>
-       <OurCompany/>
-       <Vmc/>
-       <OurServices/>
-       <Footer/>
- 
-       </Route>
-
-      <Route path="/signup" >
-
-      <SignUp/>
-
-      </Route>
-
+        <Route path="/signup">
+          <SignUp />
+        </Route>
       </Switch>
     </div>
   );
