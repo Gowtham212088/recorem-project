@@ -1,5 +1,8 @@
 import React from "react";
-
+import OurCompany from "./OurCompany"
+import Vmc from "./VMC"
+import OurServices from "./OurServices"
+import Footer from "./Footer"
 function Carousel() {
   return (
     <div>
@@ -95,6 +98,10 @@ function Carousel() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <OurCompany />
+          <Vmc />
+          <OurServices />
+          <Footer />
     </div>
   );
 }
