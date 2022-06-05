@@ -215,3 +215,59 @@ abbr[title] {
 input[placeholder]{
 font-size: large;
 }
+
+.img{
+  object-fit: cover;
+}
+
+/**  SignUp page */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.signUp-form{
+  margin-top: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Licorice&family=Open+Sans:wght@800&family=Poppins:wght@800&family=Roboto:wght@900&display=swap');
+.stylishfont-signup-word{
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #eeeeee;
+  font-size: 75px;
+  font-family: 'Dancing Script', cursive;
+  color: #ffb12b;
+}
+
+.signup-box{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border:3px solid goldenrod;
+  border-radius: 20px;
+  background-color: #520070;
+}
+
+/*// Changing the Font style of Placeholder */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Licorice&family=Open+Sans:wght@800&family=Poppins:wght@800&family=Roboto:wght@900&display=swap');
+
+.place-holder::-webkit-input-placeholder {
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*// Changing the Font style of input typing text   */
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Licorice&family=Open+Sans:wght@800&family=Poppins:wght@800&family=Roboto:wght@900&display=swap');
+
+input[type='text'],[type='email'] { font-size: 26px;font-family: 'Dancing Script', 'cursive'; }
+
+
+
+body,textarea,input  {
+ 
+  font-size:16px
+}

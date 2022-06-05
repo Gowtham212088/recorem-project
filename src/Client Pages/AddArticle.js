@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function SignUp() {
+function AddArticle() {
   const [form, setForm] = useState();
   const handleSubmit = (ele) => {
     ele.preventDefault();
@@ -26,7 +26,7 @@ function SignUp() {
               <div className="row">
                 <div className="col-md-6">
                 <div className="row">
-                   <img className="col-md-12" src="https://img.freepik.com/free-vector/publish-article-concept-illustration_114360-4926.jpg?t=st=1654355913~exp=1654356513~hmac=5b611a157dec74db311d74637502cb70e80f33677b92fba4d365fc08726febe5&w=1380" height="380" alt=""/>
+                   <img className="col-md-12 img" src="https://img.freepik.com/free-vector/creative-writing-concept-illustration_114360-8167.jpg?t=st=1654365066~exp=1654365666~hmac=aba750bebf4b7932999881af0970f5eb3cd1f7bb703a88e87a88ce05d05124a6&w=826" height="700"/>
                    </div>
                   
                 </div>
@@ -34,13 +34,14 @@ function SignUp() {
                 <div className="col-md-6 border-right-0">
                 <h6> Article Form </h6>
                   <hr />
+                  <form className="d-flex flex-column gap-3" onSubmit={handleSubmit}>
                   <div className="form-group">
                     <label className="stylishfont" for="Author-Name"> Author Name </label>
                     <input
                     name="Author-Name"
                       type="text"
                       className="form-control"
-                      value=""
+                     
                       placeholder="Enter Full Name"
                     />
                   </div>
@@ -49,10 +50,10 @@ function SignUp() {
                     <label className="stylishfont" for="Email"> Email </label>
                     <input
                     name="Email"
-                      type="text"
+                      type="email"
                       className="form-control"
-                      value=""
-                      placeholder="Enter Full Name"
+                      
+                      placeholder="E-mail"
                     />
                   </div>
 
@@ -62,8 +63,8 @@ function SignUp() {
                     name="Tittle"
                       type="text"
                       className="form-control"
-                      value=""
-                      placeholder="Enter Full Name"
+                      
+                      placeholder="Enter Tittle"
                     />
                   </div>
 
@@ -73,7 +74,7 @@ function SignUp() {
                     name="Description"
                       type="text"
                       className="form-control"
-                      value=""
+                      
                       placeholder="Description"
                     />
                   </div>
@@ -84,7 +85,7 @@ function SignUp() {
                     <textarea
                       rows="3"
                       cols="4"
-                      className="form-control"
+                      className="form-control place-holder "
                       placeholder="Your Article Here . . ."
                     ></textarea>
                   </div>
@@ -92,12 +93,13 @@ function SignUp() {
                   <div className="form-group" py-3>
                     <button
                       type="button"
-                      className="btn btn-primary shadow w-100"
+                      className="btn btn-primary shadow w-100 "
                     >
                       {" "}
-                      Send Message{" "}
+                      Post Message{" "}
                     </button>
                   </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -107,4 +109,4 @@ function SignUp() {
     </div>
   );
 }
-export default SignUp;
+export default AddArticle;
